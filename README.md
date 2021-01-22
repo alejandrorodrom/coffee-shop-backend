@@ -26,7 +26,7 @@ Proyecto base que permite desarrollar un servidor mock y probar el frontend sin 
 1. Clonar el repositorio.
 
    ```
-   https://github.com/RedJohn1426/mock-ts-express.git
+   git clone https://github.com/RedJohn1426/mock-ts-express.git
    ```
 
 3. Instalar paquetes NPM.
