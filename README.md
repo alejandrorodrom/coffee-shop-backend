@@ -1,11 +1,7 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
-</style>
 
-<br />
-<h3 style="text-align: center; font-size: 29px; font-family: 'Potta One', cursive;">
-  <b>MOCK SERVER</b>
-</h3>
+
+# MOCK SERVER
+
 <br />
 
 
