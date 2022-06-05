@@ -23,5 +23,5 @@ app.use(ExtraRoutes.getExtras);
 app.use(ExtraRoutes.postExtras);
 
 app.listen(port, () => {
-  console.log(`🚀 El servidor esta inicializado en http://localhost:${port} 🚀`);
+  console.log(`🚀 El servidor esta inicializado en el puerto ${port} 🚀`);
 });

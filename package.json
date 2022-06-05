@@ -2,12 +2,12 @@
   "name": "mock-ts-express",
   "version": "0.0.5",
   "description": "Proyecto base que permite desarrollar un servidor mock y probar el frontend sin depender del backend.",
-  "main": "./build/app.js",
+  "main": "./dist/index.js",
   "scripts": {
     "postinstall": "tsc",
-    "start": "node build/app.js",
+    "start": "node dist/index.js",
     "compile:watch": "tsc -w",
-    "mock-serve": "tsc && node build/app.js"
+    "mock-serve": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",

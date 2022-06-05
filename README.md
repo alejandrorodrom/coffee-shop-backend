@@ -55,7 +55,7 @@ Proyecto base que permite desarrollar un servidor mock y probar el frontend sin 
 * <b>constants.ts</b> - Contiene todas las exportaciones de la carpeta constants.
 * <b>data.ts</b> - Contiene todas las exportaciones de la carpeta data.
 * <b>routes.ts</b> - Contiene todas las exportaciones de la carpeta routes.
-* <b>app.ts</b> - Contiene la configuración del servidor.
+* <b>index.ts</b> - Contiene la configuración del servidor.
 
 <br>
 
