@@ -6,7 +6,7 @@ import { GetData } from './common/data';
 import { ExtraRoutes } from './common/routes';
 
 const app: express.Application = express();
-const port = 3000;
+const port = Number(process.env.PORT) | 3000;
 
 app.use(bodyParse.json());
 app.use(bodyParse.urlencoded({ extended: true }));
