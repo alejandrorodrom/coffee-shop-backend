@@ -14,6 +14,7 @@ export class ExtraRoutes {
 
   static postExtras = [
     router.post(Url.postAuth, PostData.postAuth),
+    router.post(Url.postRegister, PostData.postRegister),
     router.post(Url.postContact, PostData.postContact),
     router.post(Url.postBuy, PostData.postBuy)
   ];

@@ -5,6 +5,7 @@ export class Url {
   static getReviews = '/reviews';
   static getBlogs = '/blogs'
   static postAuth = '/auth';
+  static postRegister = '/register';
   static postContact = '/contact';
   static postBuy = '/buy';
 }
