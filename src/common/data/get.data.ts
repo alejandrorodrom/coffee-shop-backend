@@ -11,38 +11,44 @@ export class GetData {
   static getMenus = (req: Request, res: Response) => {
     res.json([
       {
+        id: 1,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/menu-1.png?alt=media&token=27717cd1-d322-4460-9367-3ea9f1421a32',
-        name: 'Tasty And Healty',
+        name: 'Tasty And Healthy',
         price: 15.99,
         beforePrice: 20.99
       },
       {
+        id: 2,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/menu-2.png?alt=media&token=e64ff078-5d49-445d-b308-8b5249d25815',
-        name: 'Tasty And Healty',
+        name: 'Good Smell',
         price: 17.99,
         beforePrice: 21.99
       },
       {
+        id: 3,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/menu-3.png?alt=media&token=d16b79b6-b3cc-4a06-af03-ca1024dddef1',
-        name: 'Tasty And Healty',
+        name: 'Perfect Roast',
         price: 18.99,
         beforePrice: 22.99
       },
       {
+        id: 4,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/menu-4.png?alt=media&token=e19d594e-5986-46f4-94ff-70597948f5e0',
-        name: 'Tasty And Healty',
+        name: 'Tasty And Healthy',
         price: 26.99,
         beforePrice: 36.99
       },
       {
+        id: 5,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/menu-5.png?alt=media&token=d0127327-ec2c-4784-840a-30ef5002e4bf',
-        name: 'Tasty And Healty',
+        name: 'Good Smell',
         price: 10.99,
         beforePrice: 50.99
       },
       {
+        id: 6,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/menu-6.png?alt=media&token=62b6b0b1-e665-4315-a5d9-906486bde5db',
-        name: 'Tasty And Healty',
+        name: 'Perfect Roast',
         price: 33.99,
         beforePrice: 85.99
       }
@@ -52,6 +58,7 @@ export class GetData {
   static getProducts = (req: Request, res: Response) => {
     res.json([
       {
+        id: 7,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/product-1.png?alt=media&token=555cab4b-ba9d-41d6-9e1f-17a038d460ae',
         name: 'Fresh Coffee',
         score: 2.5,
@@ -59,6 +66,7 @@ export class GetData {
         beforePrice: 19
       },
       {
+        id: 8,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/product-2.png?alt=media&token=5d22c7c6-5e5a-4c46-8b0d-3e83512be552',
         name: 'Fresh Coffee 2',
         score: 3.5,
@@ -66,6 +74,7 @@ export class GetData {
         beforePrice: 25
       },
       {
+        id: 9,
         image: 'https://firebasestorage.googleapis.com/v0/b/coffee-shop-galaxy.appspot.com/o/product-3.png?alt=media&token=447cdae3-216d-4334-a1ea-b94a19aec250',
         name: 'Fresh Coffee 3',
         score: 5,
